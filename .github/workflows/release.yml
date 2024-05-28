@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: hecrj/setup-rust-action@v2
         with:
-          rust-version: stable
+          rust-version: nightly
       - name: Run tests
         run: cargo test
         env:
