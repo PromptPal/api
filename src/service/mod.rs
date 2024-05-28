@@ -1,1 +1,1 @@
-pub mod promptType;
+pub mod prompt_type;
